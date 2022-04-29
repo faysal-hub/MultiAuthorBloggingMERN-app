@@ -1,9 +1,7 @@
 import React from "react";
 
 const Navbar = () => {
-    return (
-        <h2>Navbar Page</h2>
-    )
+    return <button class="btn">Button</button>;
 }
 
 export default Navbar;
