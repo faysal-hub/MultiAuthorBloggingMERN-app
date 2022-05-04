@@ -38,7 +38,7 @@ const Navbar = () => {
           </h3>
         </Link>
       </div>
-
+      {/* dropdown Manu */}
       <Menu as="div" className="md:hidden dropdown dropdown-end">
         <Menu.Button className="mt-1.5 inline-flex items-center justify-center border h-10 w-10 rounded-md">
           <svg
@@ -59,7 +59,7 @@ const Navbar = () => {
         <Menu.Items>
           <ul
             tabIndex="0"
-            className="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4"
+            className="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-1"
           >
             <Menu.Item as="div">
               {({ active }) => (
