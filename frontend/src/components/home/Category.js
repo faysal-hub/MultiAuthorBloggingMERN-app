@@ -9,28 +9,37 @@ const Category = () => {
         <h3 className="">Category</h3>
       </div>
       <ul className="cate-list pt-3">
-        <div className="cate-item flex justify-between cursor-pointer py-0.5">
+        <div className="cate-item flex justify-between py-0.5">
           <li className="flex flex-nowrap items-center">
             <FaChevronRight />
-            <Link className="text-base hover:text-slate-400" to="/">
+            <Link
+              className="text-base cursor-pointer hover:text-slate-400"
+              to="/"
+            >
               Algorithom
             </Link>
           </li>
           <span>(5)</span>
         </div>
-        <div className="cate-item flex justify-between cursor-pointer py-0.5">
+        <div className="cate-item flex justify-between py-0.5">
           <li className="flex flex-nowrap items-center">
             <FaChevronRight />
-            <Link className="text-base hover:text-slate-400" to="/">
+            <Link
+              className="text-base cursor-pointer hover:text-slate-400"
+              to="/"
+            >
               Algorithom
             </Link>
           </li>
           <span>(5)</span>
         </div>
-        <div className="cate-item flex justify-between cursor-pointer py-0.5">
+        <div className="cate-item flex justify-between py-0.5">
           <li className="flex flex-nowrap items-center">
             <FaChevronRight />
-            <Link className="text-base hover:text-slate-400" to="/">
+            <Link
+              className="text-base cursor-pointer hover:text-slate-400"
+              to="/"
+            >
               Algorithom
             </Link>
           </li>
