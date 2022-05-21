@@ -28,9 +28,11 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex items-center space-x-5 text-green-600">
+      <div className="hidden md:flex items-center space-x-5">
         <Link to="/signIn">
-          <h3 className="cursor-pointer"> Sign In</h3>
+          <h3 className="cursor-pointer text-green-600 hover:text-green-500 hover:text-lg">
+            Sign In
+          </h3>
         </Link>
         <Link to="/signUp">
           <h3 className="border px-4 py-1 rounded-full border-green-600 hover:bg-green-700 hover:text-white cursor-pointer">

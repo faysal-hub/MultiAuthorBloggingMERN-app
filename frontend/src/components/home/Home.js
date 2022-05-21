@@ -1,10 +1,10 @@
 import React from 'react';
-
 import Navbar from './Navbar';
 import PopularArtical from './Popular';
 import Search from './Search';
 import Category from './Category';
 import Tag from './Tag';
+import FacebookFollow from './FaceBookFollow';
 
 const Home = () => {
   return (
@@ -17,11 +17,12 @@ const Home = () => {
         </div>
 
         <div className="basis-1/4">
-          <div className="search-category-tag">
+          <div className="side-NavBar">
             <Search />
             <Category />
             <Tag />
             <PopularArtical />
+            <FacebookFollow />
           </div>
         </div>
       </div>
