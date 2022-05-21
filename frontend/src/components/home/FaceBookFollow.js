@@ -10,9 +10,9 @@ const FacebookFollow = () => {
         <iframe
           className=""
           title="myFrame"
-          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFull-stack-Development-104181395202750%2F&tabs=timeline&width=240&height=135&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=679713503103682"
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFull-stack-Development-104181395202750%2F&tabs=timeline&width=305&height=135&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=679713503103682"
           style={{
-            width: '240px',
+            width: '305px',
             height: '135px',
             border: 'none',
             overflow: 'hidden',
@@ -28,19 +28,3 @@ const FacebookFollow = () => {
   );
 };
 export default FacebookFollow;
-
-// import React, { Component } from 'react';
-// import { FacebookProvider, Page } from 'react-facebook';
-
-// export default class Example extends Component {
-//   render() {
-//     return (
-//       <FacebookProvider appId="679713503103682" className="mx-auto w-1">
-//         <Page
-//           href="https://www.facebook.com/Full-stack-Development-104181395202750"
-//           tabs=""
-//         />
-//       </FacebookProvider>
-//     );
-//   }
-// }
