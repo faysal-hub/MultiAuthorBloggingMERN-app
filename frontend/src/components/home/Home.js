@@ -11,7 +11,7 @@ import ArticalDetails from './ArticalDetails';
 import CategoryArticals from './CategoryArticals';
 import TagArticals from './TagArticals';
 
-const Home = () => {
+const Home = ({ history }) => {
   return (
     <div className="home">
       <Navbar />
@@ -40,10 +40,15 @@ const Home = () => {
               component={TagArticals}
               exact
             />
+            <Route
+              path="/artical/search/:searchValue"
+              component={HomeArticals}
+              exact
+            />
           </Switch>
         </div>
         <div className="basis-1/4">
-          <Search />
+          <Search history={history} />
           <Category />
           <Tag />
           <PopularArtical />

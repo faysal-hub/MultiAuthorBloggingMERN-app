@@ -18,6 +18,7 @@ function App() {
           component={Home}
           exact
         />
+        <Route path="/artical/search/:searchValue" component={Home} exact />
       </Switch>
     </Router>
   );
