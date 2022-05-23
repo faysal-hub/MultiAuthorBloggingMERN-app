@@ -10,6 +10,7 @@ import HomeArticals from './HomeArticals';
 import ArticalDetails from './ArticalDetails';
 import CategoryArticals from './CategoryArticals';
 import TagArticals from './TagArticals';
+import Footer from './Footer';
 
 const Home = ({ history }) => {
   return (
@@ -55,6 +56,7 @@ const Home = ({ history }) => {
           <FacebookFollow />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
