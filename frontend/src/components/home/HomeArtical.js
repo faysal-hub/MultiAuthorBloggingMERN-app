@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Artical = () => {
   return (
-    <div className="card lg:card-side bg-base-100 shadow-xl m-2">
+    <div className="card md:card-side bg-base-100 shadow-xl m-2">
       <figure>
         <img
           src="https://api.lorem.space/image/album?w=200&h=200"
