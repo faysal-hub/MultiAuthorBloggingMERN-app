@@ -14,7 +14,9 @@ const Artical = () => {
         <p className="p-1">MyTag Name</p>
       </div>
       <div className="card-body pt-2 pb-3 px-4 gap-0.5">
-        <h2 className="card-title">New album is released!</h2>
+        <h2 className="card-title">
+          <Link to="/artical/details/ovi">New album is released!</Link>
+        </h2>
         <div className="flex flex-row gap-1 text-xs ">
           <span className="font-medium">
             <Link to="/"> Faysal Ovi</Link>
@@ -24,7 +26,9 @@ const Artical = () => {
 
         <p>Click the button to listen on Spotiwhy app.</p>
         <div className="card-actions justify-start">
-          <button className="btn btn-sm btn-secondary">Read More</button>
+          <button className="btn btn-sm btn-secondary">
+            <Link to="/artical/details/ovi"> READ MORE</Link>
+          </button>
         </div>
       </div>
     </div>

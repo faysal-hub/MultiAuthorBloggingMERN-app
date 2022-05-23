@@ -14,7 +14,7 @@ const Category = () => {
             <FaChevronRight />
             <Link
               className="text-base cursor-pointer hover:text-slate-400"
-              to="/"
+              to="/artical/category/algo"
             >
               Algorithom
             </Link>

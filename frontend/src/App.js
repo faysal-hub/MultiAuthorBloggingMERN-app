@@ -6,6 +6,18 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" component={Home} exact />
+        <Route path="/artical/:currentPage?" component={Home} exact />
+        <Route path="/artical/details/:slug" component={Home} exact />
+        <Route
+          path="/artical/category/:categorySlug/:currentPage?"
+          component={Home}
+          exact
+        />
+        <Route
+          path="/artical/tag/:tagSlug/:currentPage?"
+          component={Home}
+          exact
+        />
       </Switch>
     </Router>
   );

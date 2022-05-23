@@ -9,7 +9,7 @@ const Tag = () => {
       </div>
       <ul className="tag-list pt-3 flex flex-wrap gap-1 text-sm">
         <li className="px-1 bg-green-700 rounded-sm hover:bg-orange-400">
-          <Link className="text-white" to="/">
+          <Link className="text-white" to="/artical/tag/tagclick">
             Programming
           </Link>
         </li>
